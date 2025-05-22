@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #147258;
+}
+#heading{
+    color: burlywood;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.textDiv{
+    height: 70px;
+    width: 700px;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15202B;
+    border-radius: 20px;
+    
+}
+#textBox{
+    position: inherit;
+    height: 30px;
+    width: 500px;
+    font-size: large;
+    border-radius: 10px;
+    border: 0px solid black;
+    text-align: center;
+}
+
+.buttonDiv{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#changeButton{
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 0px solid black;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    font-weight: 600;
+    color: #212121;
+    &:hover{
+        background-color: rgb(220, 138, 32);
+        color: #212121;
+        transition: 0.15s ease-in;
+        cursor: pointer;;
+    }
+}
